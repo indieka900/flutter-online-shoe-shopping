@@ -1,4 +1,5 @@
 import 'package:flutter_project/views/shared/export.dart';
+import 'package:flutter_project/views/ui/pinPage.dart';
 
 class MainScreen extends StatelessWidget {
   MainScreen({super.key});
@@ -7,8 +8,8 @@ class MainScreen extends StatelessWidget {
     const HomePage(),
     const SearchPage(),
     const Favorites(),
-    CartPage(),
-    const ProfilePage(),
+    const CartPage(),
+    const OtpForm(),
   ];
 
   @override
