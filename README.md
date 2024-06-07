@@ -1,3 +1,3 @@
-# flutter_project
+# flutter Shoe selling app
 
-A new Flutter project.
+This is an ecommerce flutter app with beautiful UI
