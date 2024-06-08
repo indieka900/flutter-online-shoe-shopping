@@ -45,7 +45,7 @@ class _StaggerTileState extends State<StaggerTile> {
                     style: appStylewithHT(20, Colors.black, FontWeight.w700, 1),
                   ),
                   ReusableText(
-                    text: '\$${widget.price}',
+                    text: 'KSH${widget.price}',
                     style: appStylewithHT(20, Colors.black, FontWeight.w500, 1),
                   )
                 ],

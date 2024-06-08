@@ -45,10 +45,13 @@ class LatestShoes extends StatelessWidget {
                     ),
                   );
                 },
-                child: StaggerTile(
-                  imageUrl: shoe.imageUrl[1],
-                  name: shoe.name,
-                  price: shoe.price,
+                child: Padding(
+                  padding: const EdgeInsets.only(top:8.0),
+                  child: StaggerTile(
+                    imageUrl: shoe.imageUrl[1],
+                    name: shoe.name,
+                    price: shoe.price,
+                  ),
                 ),
               );
             },

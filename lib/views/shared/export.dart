@@ -6,7 +6,7 @@ export 'package:flutter_project/controllers/product_provider.dart';
 export 'package:flutter_project/models/sneaker_model.dart';
 export 'package:flutter_project/views/shared/appstyle.dart';
 export 'package:flutter_project/views/shared/checkout_btn.dart';
-export 'package:flutter_project/views/shared/reusableText.dart';
+export 'package:flutter_project/views/shared/reusabletext.dart';
 export 'package:flutter_project/views/ui/favorites.dart';
 export 'package:flutter_rating_bar/flutter_rating_bar.dart';
 export 'package:flutter_screenutil/flutter_screenutil.dart';

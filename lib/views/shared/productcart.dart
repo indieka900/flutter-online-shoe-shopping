@@ -114,15 +114,15 @@ class _ProductCardState extends State<ProductCard> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
                     ReusableText(
-                      text: '\$${widget.price}',
-                      style: appStyle(27, Colors.black, FontWeight.w600),
+                      text: 'KSH${widget.price}',
+                      style: appStyle(20, Colors.black, FontWeight.w600),
                     ),
                     Row(
                       children: <Widget>[
                         ReusableText(
                           text: 'Colors',
                           style: appStyle(
-                            18,
+                            15,
                             Colors.blueGrey,
                             FontWeight.w500,
                           ),
@@ -130,12 +130,12 @@ class _ProductCardState extends State<ProductCard> {
                         const SizedBox(
                           width: 5.1,
                         ),
-                        ChoiceChip(
-                          label: const Text(''),
-                          selected: selected,
-                          visualDensity: VisualDensity.compact,
-                          selectedColor: Colors.black,
-                        ),
+                        // ChoiceChip(
+                        //   label: const Text(''),
+                        //   selected: selected,
+                        //   visualDensity: VisualDensity.compact,
+                        //   selectedColor: Colors.black,
+                        // ),
                       ],
                     )
                   ],
