@@ -21,7 +21,7 @@ class _ProductCardState extends State<ProductCard> {
   Widget build(BuildContext context) {
     var favorite = Provider.of<FavoriteNotifier>(context, listen: true);
     favorite.getFavorites();
-    bool selected = true;
+    //bool selected = true;
     return Padding(
       padding: EdgeInsets.only(left: 8.w, right: 20.w),
       child: ClipRRect(
